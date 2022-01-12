@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&displAY=swap');
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+section
+{
+padding: 100 px;
+}
+.banner
+{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(banner.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.banner h2
+{
+    font-size: font-family;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.banner h2 span
+{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3
+{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+.btn
+{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10 px 30 px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header
+{
+    position: fixed ;
+    top: 0 ;
+    left: 0 ;
+    margin-top: 15px;
+    width: 100%;
+    padding: 40px 100 px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+}
+header .sticky
+{
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+}
+ header .logo
+{
+    color:#fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header .sticky .logo
+{
+    color: #111;
+}
+header ul
+{
+    position : relative ;
+    display: flex;
+}
+header ul li{
+    position:relative;
+    list-style: none;
+}
+header ul li a 
+{
+   position: relative;
+   display: inline-block;
+   margin:  20px;
+   margin-top: 20px;
+   color: #fff;
+   text-decoration: none; 
+}
+header .sticky ul li a
+{
+    color: #fff;
+}
+.heading
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30 px;
+    color: #111;
+}
+.content
+{
+display:flex;
+justify-content: space-between;
+}
+.contentBx
+{
+    padding-right: 30px;
+}
+.contentBx h3
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.w50
+{
+    min-width: 50px;
+}
+img
+{
+    max-width: 100%;
+}
